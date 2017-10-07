@@ -27,10 +27,17 @@ The **/rootid** argument contains the folder identifier in the wix project.
 If you like this utility and you want to support the development:
 
 **LTC** LWNyqqMzdC2sAZa1XGKUCm62Qfd7k4Md23
+
 **ETH** 0x5c153d2B653ab7925FC0fE7cf585e7628EDc9d32
+
 **PPC** PQazRKkaKHi99RnK3cUxbfmnxQFengc9Rd
+
 **FTC** 6nvBitWATH1ar2cJc64ogf58VLQUrSbKkQ
+
 **NEM** NBJ4PI-2XKD33-PNJLZY-QSB57D-4ICIV3-C2ME5N-B2V6
+
 **XLM** GABERDH63VVBJQ6ITVSAIXXBBPKSDGBQGIIZ6C2USMWIG5HHYLU7INXU
+
 **GRC** SAesjyp8cpwWGz5UCJwzDVigR7VPTiicne
+
 
