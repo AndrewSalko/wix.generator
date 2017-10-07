@@ -12,7 +12,6 @@ namespace wix.generator
 	{
 		static int Main(string[] args)
 		{
-
 			bool showHelp = false;
 
 			if (args == null || args.Length == 0)
@@ -39,13 +38,12 @@ namespace wix.generator
 
 				Console.WriteLine("Usage:");
 
-				string usageExample = "WixLibraryGenerator.exe dir \"C:\\yourdir\" /wixsourcepath ..\\..\\Bin\\  /groupid \"GroupIDForYourInstallation\" /rootid \"DirIDForYourInstallation\" /resultfile library.wxs";
+				string usageExample = "wix.generator.exe /dir \"C:\\yourproject\" /wixsourcepath \"\\bin\\Release\"  /groupid \"GroupIDForYourInstallation\" /rootid \"DirIDForYourInstallation\" /resultfile library.wxs";
 				Console.WriteLine(usageExample);
 
 
 				Console.WriteLine("");
 				Console.WriteLine("Switches:");
-				Console.WriteLine(" /? - help screen");
 				Console.WriteLine(" /dir <path to your directory> - files and subfolders will be added to .wxs file");
 
 				Console.WriteLine("");
@@ -55,6 +53,7 @@ namespace wix.generator
 				Console.WriteLine(" /groupid <name> - your name for root component group (something like 'mycomponentgroupid')");
 				Console.WriteLine(" /rootid <name> - your wix root directory id (something like 'mydirectoryid')");
 				Console.WriteLine(" /resultfile <file path> - path to result .wxs file");
+				Console.WriteLine(" /? - help screen");
 
 				return -1;
 			}
@@ -64,8 +63,6 @@ namespace wix.generator
 			string groupID = null;
 			string rootID = null;
 			string resultFile = null;
-
-			System.Threading.Thread.Sleep(10000);
 
 			try
 			{
